@@ -185,19 +185,19 @@ h3{
 
 @media only screen and (max-width: 991px) {
     .col-4{
-        -webkit-box-flex: 0;
-        flex: 0 0 50%;
-        max-width: 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .col, .col-6, .col-4{
-        flex-basis: 0;
-        -webkit-box-flex: 1;
-        flex-grow: 1;
-        max-width: 100%;
-        flex: 0 0 100%;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    flex: 0 0 100%;
     }
 }
 
@@ -249,10 +249,10 @@ header nav.main ul li a:hover{
 
 @media only screen and (max-width: 768px) {
     header .logo a img:nth-child(1){
-        display: none;
+    display: none;
     }
     header .logo a img:nth-child(2){
-        display: block;
+    display: block;
     }
 }
 
@@ -285,7 +285,7 @@ section.intro-section .container{
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 section.intro-section .text-holder{
     max-width: 600px;
@@ -302,12 +302,12 @@ section.intro-section .text-holder p{
 
 @media only screen and (max-width: 991px) {
     section.intro-section{
-        background: white;
-        height: 60rem;
+    background: white;
+    height: 60rem;
     }
 
     section.intro-section .text-holder p{
-        display: none;
+    display: none;
     }
 
     section.intro-section .text-holder h1{
@@ -324,8 +324,8 @@ section.intro-section .text-holder p{
 
 @media only screen and (max-width: 768px) {
     section.intro-section{
-        background: white;
-        height: 50rem;
+    background: white;
+    height: 50rem;
     }
 
 
@@ -420,7 +420,7 @@ section.our-tops .section-title{
 
 }
 .search-form legend{
-    font: "Nexa_Light";
+    font-family:"Nexa_Bold";
     font-size: 2rem;
     padding: 2rem;
 }
@@ -448,18 +448,21 @@ section.our-tops .section-title{
 }
 
 .search-form a{
-display: block;
-margin: 0 auto;
-margin-bottom: 4rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
-.col-4{
-    -webkit-box-flex: 0;
-    flex: 0 0 33.333333333%;
-    max-width: 33.333333333%;
-    padding-right: 15px;
-    padding-left: 15px;
+input[type=search] {
+  border: 1px dotted #999;
+  width: 16rem;
+  border-radius: 30px;
+  padding:1rem;
+  margin-left: 2rem;
+  -webkit-appearance: none;
 }
+
+
 
 .col-3{
     -webkit-box-flex: 0;
@@ -471,19 +474,19 @@ margin-bottom: 4rem;
 
 @media only screen and (max-width: 991px) {
     .col-4, .col-3{
-        -webkit-box-flex: 0;
-        flex: 0 0 50%;
-        max-width: 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .col, .col-6, .col-4, .col-3{
-        flex-basis: 0;
-        -webkit-box-flex: 1;
-        flex: 0 0 100%;
-        flex-grow: 1;
-        max-width: 100%;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex: 0 0 100%;
+    flex-grow: 1;
+    max-width: 100%;
     }
     .search-form a{
     display: block;
@@ -497,7 +500,7 @@ margin-bottom: 4rem;
 /* Latest posts*/
 
 section.latest-posts{
-padding: 5rem 0;
+    padding: 5rem 0;
 }
 
 section.latest-posts .container{
@@ -507,7 +510,6 @@ section.latest-posts .container{
     padding-left: 15px;
     padding-right: 15px;
 }
-
 
 
 
